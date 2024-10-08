@@ -1,0 +1,54 @@
+{
+  "name": "@tm1-oss/chai-subset",
+  "version": "1.0.0",
+  "description": "Object properties matcher for Chai, contained arrays must contain identical objects in order",
+  "main": "lib/chai-subset.js",
+  "scripts": {
+    "test": "istanbul cover node_modules/mocha/bin/_mocha",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tm1-oss/chai-subset.git"
+  },
+  "keywords": [
+    "chai",
+    "chai-plugin",
+    "objects",
+    "subset",
+    "contains",
+    "plugin",
+    "containSubset",
+    "deep",
+    "like",
+    "match",
+    "similar",
+    "includes",
+    "superset"
+  ],
+  "author": "Berk Soysal <berksoysal@live.com>",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tm1-oss/chai-subset/issues"
+  },
+  "homepage": "https://github.com/tm1-oss/chai-subset",
+  "devDependencies": {
+    "@debitoor/eslint-config-debitoor": "1.2.0",
+    "chai": "3.5.0",
+    "coveralls": "2.11.16",
+    "istanbul": "0.4.5",
+    "mocha": "3.2.0",
+    "mocha-eslint": "3.0.1"
+  },
+  "files": [
+    "lib"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
+}
